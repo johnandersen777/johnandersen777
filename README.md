@@ -56,7 +56,7 @@ project rolled out. We did this automated classification demo.
 > https://www.youtube.com/watch?v=D9puJiKKKS8&list=PLtzAOVTpO2jYt71umwc-ze6OmwwCIMnLw
 
 Hello everybody. We're going to get started. I'd like to introduce you to John
-Anderson. John is on the open source security team at Intel. He's from Portland.
+Andersen. John is on the open source security team at Intel. He's from Portland.
 Went to PSU for computer engineering with a focus on embedded systems and did
 his honors college thesis on machine learning. He's been working at Intel as an
 intern, then an employee for the past five years. Security research, embedded
