@@ -11,6 +11,7 @@ projects. I would love if you'd join me on this adventure.
 
 - [johnandersenpdx@gmail.com](mailto:johnandersenpdx@gmail.com?subject=Introduction)
 - [@pdxjohnny](https://mastodon.social/@pdxjohnny)
+- [Rolling Alice: Progress Report Transcripts](https://gist.github.com/pdxjohnny/07b8c7b4a9e05579921aa3cc8aed4866)
 - [Alice Engineering Comms](https://github.com/intel/dffml/discussions/1406?sort=new)
   - Come! Roll Alice with us!
 
