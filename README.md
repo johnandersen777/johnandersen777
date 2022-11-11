@@ -7,7 +7,9 @@ I've fallen down the open source supply chain security rabbit hole.
 My current focus is around leveraging threat model and architecture
 information to facilitate automated context aware decentralized gamification
 / continuous improvement of the security lifecycle / posture of open source
-projects. I would love if you'd join me on this adventure.
+projects.
+
+I would love if you'd join me on this adventure.
 
 - [johnandersenpdx@gmail.com](mailto:johnandersenpdx@gmail.com?subject=Introduction)
 - [@pdxjohnny@mastodon.social](https://mastodon.social/@pdxjohnny)
