@@ -1,4 +1,4 @@
-# 🐢 Rolling Alice... ⏳
+# 🐢 [Rolling Alice](https://github.com/intel/dffml/blob/alice/docs/tutorials/rolling_alice/0000_architecting_alice/README.md#rolling-alice-volume-0-introduction-and-context)... ⏳
 
 Hello Entity of the Internet! I'm John.
 
