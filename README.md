@@ -1,15 +1,16 @@
 # 🐢 [Rolling Alice...](https://github.com/intel/dffml/blob/alice/docs/tutorials/rolling_alice/0000_architecting_alice/README.md#rolling-alice-volume-0-introduction-and-context) ⏳
 
-Hello Entity of the Internet! I'm John. 🎩
+🤘🤙 Hello Entity of the Internet! I'm John. 🎩
 
-I've fallen down the open source supply chain security rabbit hole.
+⛓️🕳 I've fallen down the open source supply chain security rabbit hole. 🌳🐇
 
 My current focus is around leveraging threat model and architecture
 information to facilitate automated context aware decentralized gamification
-/ continuous improvement of the security lifecycle / posture of open source
+/ continuous improvement 🚄 of the security lifecycle / posture of open source
 projects.
 
-I would love if you'd join in on this adventure.
+It'd be fun if you joined in on this adventure. 🛤️ I can promise you it's
+going to be a wild ride. 🛼🎢
 
 > Source: [Living Threat Models Are Better Than Dead Threat Models](https://gist.github.com/pdxjohnny/07b8c7b4a9e05579921aa3cc8aed4866#file-rolling_alice_progress_report_0006_living_threat_models_are_better_than_dead_threat_models-md) [John L. Whiteman and John S. Andersen (aka John^2)]
 >
