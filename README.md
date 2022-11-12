@@ -26,6 +26,6 @@ I would love if you'd join in on this adventure.
 - [Rolling Alice: Progress Reports](https://www.youtube.com/playlist?list=PLtzAOVTpO2jYt71umwc-ze6OmwwCIMnLw)
 - [Rolling Alice: Progress Report Transcripts](https://gist.github.com/pdxjohnny/07b8c7b4a9e05579921aa3cc8aed4866)
 - [Alice Engineering Comms](https://github.com/intel/dffml/discussions/1406?sort=new)
-  - Come! Roll Alice with us!
+  - Come! Roll Alice with us! She's falling down the rabbit hole [too](https://github.com/intel/dffml/blob/alice/docs/tutorials/rolling_alice/0001_coach_alice/0000_introduction.md)!
 
 [![hole-rabbit-hole](https://user-images.githubusercontent.com/5950433/196436807-68881b75-2006-4734-b4a2-63dc3d17b634.gif)](https://github.com/intel/dffml/commit/291cfbe5153414932afe446aa4f6c2e298069914)
