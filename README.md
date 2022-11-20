@@ -9,7 +9,7 @@ information to facilitate automated context aware decentralized gamification
 / continuous improvement 🚄 of the security lifecycle / posture of open source
 projects.
 
-It'd be fun if you joined in on this adventure. 🛤️ I can promise you it's
+It'd be fun if you joined in on this adventure. 🛤️ I can promise it's
 going to be a wild ride. 🛼🎢
 
 > Source: [Living Threat Models Are Better Than Dead Threat Models](https://gist.github.com/pdxjohnny/07b8c7b4a9e05579921aa3cc8aed4866#file-rolling_alice_progress_report_0006_living_threat_models_are_better_than_dead_threat_models-md) [John L. Whiteman and John S. Andersen (aka John^2)]
