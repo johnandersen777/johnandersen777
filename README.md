@@ -7,7 +7,7 @@
 My current focus is around leveraging threat model and architecture
 information to facilitate automated context aware decentralized gamification
 / continuous improvement 🚄 of the security lifecycle / posture of open source
-projects.
+projects. The aim is to harden train of thought security.
 
 It'd be fun if you joined in on this adventure. 🛤️ I can promise it's
 going to be a wild ride. 🛼🎢
