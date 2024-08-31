@@ -30,3 +30,6 @@ going to be a wild ride. 🛼🎢
   - Come! Roll Alice with us! She's falling down the rabbit hole [too](https://github.com/intel/dffml/blob/main/docs/tutorials/rolling_alice/0001_coach_alice/0000_introduction.md)!
 
 [![hole-rabbit-hole](https://user-images.githubusercontent.com/5950433/196436807-68881b75-2006-4734-b4a2-63dc3d17b634.gif)](https://github.com/intel/dffml/commit/e5a84e71d7f2eec3adc82241a61ef68510509fa8#r140755858)
+
+![a_shell_for_a_ghost](https://github.com/user-attachments/assets/71d3464e-9f4c-4bfc-aac6-49b392cc985d)
+
