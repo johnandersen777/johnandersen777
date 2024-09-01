@@ -12,6 +12,8 @@ projects. The aim is to harden train of thought security.
 It'd be fun if you joined in on this adventure. 🛤️ I can promise it's
 going to be a wild ride. 🛼🎢
 
+![Rolling-Alice-Architecting-Alice-A-Shell-for-a-Ghost](https://github.com/user-attachments/assets/fb5a211e-0384-46d5-ba3a-63a5e2ca7fab)
+
 > Source: [Living Threat Models Are Better Than Dead Threat Models](https://gist.github.com/pdxjohnny/07b8c7b4a9e05579921aa3cc8aed4866#file-rolling_alice_progress_report_0006_living_threat_models_are_better_than_dead_threat_models-md) [John L. Whiteman and John S. Andersen (aka John^2)]
 >
 > *The cornerstone of security for every application starts with a [threat model](https://owasp.org/www-community/Threat_Modeling_Process). Without it, how does one know what to protect and from whom? Remarkably, most applications do not have threat models, take a look at the open-source community. And, even if a threat model is created, it tends to be neglected as the project matures since any new code checked in by the development team can potentially change the threat landscape. One could say that the existing threat model is as good as dead if such a gap exists.*
@@ -30,6 +32,3 @@ going to be a wild ride. 🛼🎢
   - Come! Roll Alice with us! She's falling down the rabbit hole [too](https://github.com/intel/dffml/blob/main/docs/tutorials/rolling_alice/0001_coach_alice/0000_introduction.md)!
 
 [![hole-rabbit-hole](https://user-images.githubusercontent.com/5950433/196436807-68881b75-2006-4734-b4a2-63dc3d17b634.gif)](https://github.com/intel/dffml/commit/e5a84e71d7f2eec3adc82241a61ef68510509fa8#r140755858)
-
-![a_shell_for_a_ghost](https://github.com/user-attachments/assets/71d3464e-9f4c-4bfc-aac6-49b392cc985d)
-
