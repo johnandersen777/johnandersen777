@@ -14,6 +14,13 @@ going to be a wild ride. 🛼🎢
 
 [![Rolling-Alice-Architecting-Alice-A-Shell-for-a-Ghost-2024-09-02-nmap-local](https://github.com/user-attachments/assets/8bd9dfed-deaf-4790-87aa-72d19795b2c0)](https://asciinema.org/a/674483)
 
+```bash
+# From within TMUX
+export GITHUB_USER=$(gh auth status | grep 'Logged in to github.com account ' | awk '{print $7}')
+ssh_alice() { ssh -p 2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o PasswordAuthentication=no -R /tmp/${GITHUB_USER}.sock:$(echo $TMUX | sed -e 's/,.*//g') -R /tmp/${GITHUB_USER}-input.sock:/tmp/${GITHUB_USER}-input.sock ${GITHUB_USER}@alice.chadig.com; }
+ssh_alice; sleep 1; ssh_alice
+```
+
 > Source: [Living Threat Models Are Better Than Dead Threat Models](https://gist.github.com/pdxjohnny/07b8c7b4a9e05579921aa3cc8aed4866#file-rolling_alice_progress_report_0006_living_threat_models_are_better_than_dead_threat_models-md) [John L. Whiteman and John S. Andersen (aka John^2)]
 >
 > *The cornerstone of security for every application starts with a [threat model](https://owasp.org/www-community/Threat_Modeling_Process). Without it, how does one know what to protect and from whom? Remarkably, most applications do not have threat models, take a look at the open-source community. And, even if a threat model is created, it tends to be neglected as the project matures since any new code checked in by the development team can potentially change the threat landscape. One could say that the existing threat model is as good as dead if such a gap exists.*
