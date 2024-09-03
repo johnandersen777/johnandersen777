@@ -16,6 +16,8 @@ going to be a wild ride. 🛼🎢
 
 ```bash
 # From within TMUX
+gh auth refresh -h github.com -s admin:public_key
+for pub in $(find ~/.ssh -name \*.pub); do gh ssh-key add --title $(hostname)-$(basename $pub) $pub; done
 export GITHUB_USER=$(gh auth status | grep 'Logged in to github.com account ' | awk '{print $7}')
 ssh_alice() { ssh -p 2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o PasswordAuthentication=no -R /tmp/${GITHUB_USER}.sock:$(echo $TMUX | sed -e 's/,.*//g') -R /tmp/${GITHUB_USER}-input.sock:/tmp/${GITHUB_USER}-input.sock ${GITHUB_USER}@alice.chadig.com; }
 ssh_alice; sleep 1; ssh_alice
