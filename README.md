@@ -12,7 +12,7 @@ projects. The aim is to harden train of thought security.
 It'd be fun if you joined in on this adventure. 🛤️ I can promise it's
 going to be a wild ride. 🛼🎢
 
-[![Rolling-Alice-Architecting-Alice-A-Shell-for-a-Ghost-2024-09-02-nmap-local](https://github.com/user-attachments/assets/8bd9dfed-deaf-4790-87aa-72d19795b2c0)](https://asciinema.org/a/674483)
+[![Rolling-Alice-Architecting-Alice-A-Shell-for-a-Ghost-2024-09-02-nmap-local](https://github.com/user-attachments/assets/8bd9dfed-deaf-4790-87aa-72d19795b2c0)](https://asciinema.org/a/674501)
 
 ```bash
 # From within TMUX
