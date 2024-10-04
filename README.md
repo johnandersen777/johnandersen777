@@ -1,4 +1,4 @@
-# 🐢 [Rolling Alice...](https://github.com/intel/dffml/blob/main/docs/tutorials/rolling_alice/0000_architecting_alice/README.md#rolling-alice-volume-0-introduction-and-context) ⏳
+# 🐢 [Rolling Alice...](https://github.com/dffml/dffml/blob/main/docs/tutorials/rolling_alice/0000_architecting_alice/README.md#rolling-alice-volume-0-introduction-and-context) ⏳
 
 🤙 Hello Entity of the Internet! :metal: I'm [John](https://pdxjohnny.github.io/about/). 🎩
 
@@ -29,7 +29,7 @@ ssh_alice; sleep 1; ssh_alice
 >
 > *Our talk is about creating a [Living Threat Model (LTM)](https://github.com/johnlwhiteman/living-threat-models) where the same best practices used in the [continuous integration](https://github.com/intel/dffml/tree/main/docs/tutorials/rolling_alice/0000_architecting_alice#what-is-alice) of source code can aptly apply to the model itself. LTMs are machine readable text files that coexist in the Git repository and, like, source code, can be updated, scanned, peer reviewed and approved by the community in a transparent way. Wouldn’t it be nice to see a [threat model](https://github.com/johnlwhiteman/living-threat-models/blob/main/THREATS.md) included in every open-source project?*
 >
-> *We need to consider automation too to make this work in the CI/CD pipeline. We use the open-source [Data Flow Facilitator for Machine Learning (DFFML)](https://github.com/intel/dffml) framework to establish a [bidirectional data bridge](https://github.com/intel/dffml/blob/main/docs/arch/0009-Open-Architecture.rst) between the LTM and source code. When a new pull request is created, an [audit-like scan](https://github.com/johnlwhiteman/living-threat-models/blob/main/demo/ALICE.rst#living-threatsmd) is initiated to check to see if the LTM needs to be updated. For example, if a scan detects that new cryptography has been added to the code, but the existing LTM doesn’t know about it, then a warning is triggered. Project teams can triage the issue to determine whether it is a false positive or not, just like source code scans.*
+> *We need to consider automation too to make this work in the CI/CD pipeline. We use the open-source [Data Flow Facilitator for Machine Learning (DFFML)](https://github.com/dffml/dffml) framework to establish a [bidirectional data bridge](https://github.com/dffml/dffml/blob/main/docs/arch/0009-Open-Architecture.rst) between the LTM and source code. When a new pull request is created, an [audit-like scan](https://github.com/johnlwhiteman/living-threat-models/blob/main/demo/ALICE.rst#living-threatsmd) is initiated to check to see if the LTM needs to be updated. For example, if a scan detects that new cryptography has been added to the code, but the existing LTM doesn’t know about it, then a warning is triggered. Project teams can triage the issue to determine whether it is a false positive or not, just like source code scans.*
 >
 > *We have been working on this effort for a few years and feel we are on the right track to make open-source applications more secure in a way that developers can understand.*
 
@@ -37,7 +37,7 @@ ssh_alice; sleep 1; ssh_alice
 - [@pdxjohnny@mastodon.social](https://mastodon.social/@pdxjohnny)
 - [Rolling Alice: Progress Reports](https://www.youtube.com/playlist?list=PLtzAOVTpO2jYt71umwc-ze6OmwwCIMnLw)
 - [Rolling Alice: Progress Report Transcripts](https://gist.github.com/pdxjohnny/07b8c7b4a9e05579921aa3cc8aed4866)
-- [Alice Engineering Comms](https://github.com/intel/dffml/discussions/1406?sort=new)
-  - Come! Roll Alice with us! She's falling down the rabbit hole [too](https://github.com/intel/dffml/blob/main/docs/tutorials/rolling_alice/0001_coach_alice/0000_introduction.md)!
+- [Alice Engineering Comms (Archive)](https://github.com/intel/dffml/discussions/1406?sort=new)
+  - Come! Roll Alice with us! She's falling down the rabbit hole [too](https://github.com/dffml/dffml/blob/main/docs/tutorials/rolling_alice/0001_coach_alice/0000_introduction.md)!
 
 [![hole-rabbit-hole](https://user-images.githubusercontent.com/5950433/196436807-68881b75-2006-4734-b4a2-63dc3d17b634.gif)](https://pdxjohnny.github.io/maryisgod/)
