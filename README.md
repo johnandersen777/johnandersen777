@@ -37,6 +37,7 @@ ssh_alice; sleep 1; ssh_alice
 - [Rolling Alice: Progress Reports](https://www.youtube.com/playlist?list=PLtzAOVTpO2jYt71umwc-ze6OmwwCIMnLw)
 - [Rolling Alice: Progress Report Transcripts](https://gist.github.com/johnandersen777/07b8c7b4a9e05579921aa3cc8aed4866)
 - [Alice Engineering Comms (Archive)](https://github.com/intel/dffml/discussions/1406?sort=new)
+  - [Move fast, fix things](https://hbr.org/2019/01/the-era-of-move-fast-and-break-things-is-over). [Live off the land](https://www.crowdstrike.com/cybersecurity-101/living-off-the-land-attacks-lotl/). [Failure is not an option](https://github.com/dffml/dffml/tree/main/docs/tutorials/rolling_alice/0000_architecting_alice#the-scary-part).
   - Come! Roll Alice with us! She's falling down the rabbit hole [too](https://github.com/dffml/dffml/blob/main/docs/tutorials/rolling_alice/0001_coach_alice/0000_introduction.md)!
 
 [![hole-rabbit-hole](https://user-images.githubusercontent.com/5950433/196436807-68881b75-2006-4734-b4a2-63dc3d17b634.gif)](https://johnandersen777.github.io/a_guide_to_good/)
