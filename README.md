@@ -1,6 +1,6 @@
 # 🐰 [Rolling Alice...](https://github.com/dffml/dffml/blob/main/docs/tutorials/rolling_alice/0000_architecting_alice/README.md#rolling-alice-volume-0-introduction-and-context) ⏳
 
-🤙 Hello Entity of the Internet! :metal: I'm [John](https://pdxjohnny.github.io/about/). 🎩
+🤙 Hello Entity of the Internet! :metal: I'm [John](https://johnandersen777.github.io/about/). 🎩
 
 ⛓️🕳 I've fallen down the open source supply chain security rabbit hole. 🌳🐇
 
@@ -23,7 +23,7 @@ ssh_alice() { ssh -p 2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecki
 ssh_alice; sleep 1; ssh_alice
 ```
 
-> Source: [Living Threat Models Are Better Than Dead Threat Models](https://gist.github.com/pdxjohnny/07b8c7b4a9e05579921aa3cc8aed4866#file-rolling_alice_progress_report_0006_living_threat_models_are_better_than_dead_threat_models-md) [John L. Whiteman and John S. Andersen (aka John^2)]
+> Source: [Living Threat Models Are Better Than Dead Threat Models](https://gist.github.com/johnandersen777/07b8c7b4a9e05579921aa3cc8aed4866#file-rolling_alice_progress_report_0006_living_threat_models_are_better_than_dead_threat_models-md) [John L. Whiteman and John S. Andersen (aka John^2)]
 >
 > *The cornerstone of security for every application starts with a [threat model](https://owasp.org/www-community/Threat_Modeling_Process). Without it, how does one know what to protect and from whom? Remarkably, most applications do not have threat models, take a look at the open-source community. And, even if a threat model is created, it tends to be neglected as the project matures since any new code checked in by the development team can potentially change the threat landscape. One could say that the existing threat model is as good as dead if such a gap exists.*
 >
@@ -33,11 +33,10 @@ ssh_alice; sleep 1; ssh_alice
 >
 > *We have been working on this effort for a few years and feel we are on the right track to make open-source applications more secure in a way that developers can understand.*
 
-- [johnandersenpdx@gmail.com](mailto:johnandersenpdx@gmail.com?subject=Introduction)
-- [@pdxjohnny@mastodon.social](https://mastodon.social/@pdxjohnny)
+- [Blog](https://johnandersen777.github.io/posts/)
 - [Rolling Alice: Progress Reports](https://www.youtube.com/playlist?list=PLtzAOVTpO2jYt71umwc-ze6OmwwCIMnLw)
-- [Rolling Alice: Progress Report Transcripts](https://gist.github.com/pdxjohnny/07b8c7b4a9e05579921aa3cc8aed4866)
+- [Rolling Alice: Progress Report Transcripts](https://gist.github.com/johnandersen777/07b8c7b4a9e05579921aa3cc8aed4866)
 - [Alice Engineering Comms (Archive)](https://github.com/intel/dffml/discussions/1406?sort=new)
   - Come! Roll Alice with us! She's falling down the rabbit hole [too](https://github.com/dffml/dffml/blob/main/docs/tutorials/rolling_alice/0001_coach_alice/0000_introduction.md)!
 
-[![hole-rabbit-hole](https://user-images.githubusercontent.com/5950433/196436807-68881b75-2006-4734-b4a2-63dc3d17b634.gif)](https://pdxjohnny.github.io/maryisgod/)
+[![hole-rabbit-hole](https://user-images.githubusercontent.com/5950433/196436807-68881b75-2006-4734-b4a2-63dc3d17b634.gif)](https://johnandersen777.github.io/a_guide_to_good/)
