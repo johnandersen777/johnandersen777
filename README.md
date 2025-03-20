@@ -1,6 +1,6 @@
 # 🐢 [Rolling Alice...](https://github.com/dffml/dffml/blob/main/docs/tutorials/rolling_alice/0000_architecting_alice/README.md#rolling-alice-volume-0-introduction-and-context) ⏳
 
-🤙 Hello Entity of the Internet! :metal: I'm [John](https://johnandersen777.github.io/about/). 🎩
+🤙 Hello Entity of the Internet! :metal: I'm John. 🎩
 
 ⛓️🕳 I've fallen down the open source supply chain security rabbit hole. 🌳🐇
 
