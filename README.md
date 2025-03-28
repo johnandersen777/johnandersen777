@@ -17,7 +17,7 @@ going to be a wild ride. 🛼🎢
 export INPUT_SOCK="$(mktemp -d)/input.sock"; ssh -NnT -p 2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o PasswordAuthentication=no -R /tmux.sock:$(echo $TMUX | sed -e 's/,.*//g') -R "${INPUT_SOCK}:${INPUT_SOCK}" user@alice.chadig.com
 ```
 
-[![Rolling-Alice-Architecting-Alice-A-Shell-for-a-Ghost-2024-09-02-nmap-local](https://github.com/user-attachments/assets/5f1c85e6-843a-4b97-ba54-a3377e26b941)](https://asciinema.org/a/674501?t=111)
+[![Rolling-Alice-Architecting-Alice-A-Shell-for-a-Ghost-2024-09-02-nmap-local](https://github.com/user-attachments/assets/b301dc13-cad1-4b67-a252-03591ce4e53a)](https://asciinema.org/a/710485)
 
 > Source: [Living Threat Models Are Better Than Dead Threat Models](https://gist.github.com/johnandersen777/07b8c7b4a9e05579921aa3cc8aed4866#file-rolling_alice_progress_report_0006_living_threat_models_are_better_than_dead_threat_models-md) [John L. Whiteman and John S. Andersen (aka John^2)]
 >
