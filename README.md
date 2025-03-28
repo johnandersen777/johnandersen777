@@ -12,16 +12,12 @@ projects. The aim is to harden train of thought security. 😜
 It'd be fun if you joined in on this adventure. 🛤️ I can promise it's
 going to be a wild ride. 🛼🎢
 
-[![Rolling-Alice-Architecting-Alice-A-Shell-for-a-Ghost-2024-09-02-nmap-local](https://github.com/user-attachments/assets/5f1c85e6-843a-4b97-ba54-a3377e26b941)](https://asciinema.org/a/674501?t=111)
-
 ```bash
 # From within TMUX
-gh auth refresh -h github.com -s admin:public_key
-for pub in $(find ~/.ssh -name \*.pub); do gh ssh-key add --title $(hostname)-$(basename $pub) $pub; done
-export GITHUB_USER=$(gh auth status | grep 'Logged in to github.com account ' | awk '{print $7}')
-ssh_alice() { ssh -p 2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o PasswordAuthentication=no -R /tmp/${GITHUB_USER}.sock:$(echo $TMUX | sed -e 's/,.*//g') -R /tmp/${GITHUB_USER}-input.sock:/tmp/${GITHUB_USER}-input.sock ${GITHUB_USER}@alice.chadig.com; }
-ssh_alice; sleep 1; ssh_alice
+export INPUT_SOCK="$(mktemp -d)/input.sock"; ssh -NnT -p 2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o PasswordAuthentication=no -R /tmux.sock:$(echo $TMUX | sed -e 's/,.*//g') -R "${INPUT_SOCK}:${INPUT_SOCK}" user@alice.chadig.com
 ```
+
+[![Rolling-Alice-Architecting-Alice-A-Shell-for-a-Ghost-2024-09-02-nmap-local](https://github.com/user-attachments/assets/5f1c85e6-843a-4b97-ba54-a3377e26b941)](https://asciinema.org/a/674501?t=111)
 
 > Source: [Living Threat Models Are Better Than Dead Threat Models](https://gist.github.com/johnandersen777/07b8c7b4a9e05579921aa3cc8aed4866#file-rolling_alice_progress_report_0006_living_threat_models_are_better_than_dead_threat_models-md) [John L. Whiteman and John S. Andersen (aka John^2)]
 >
