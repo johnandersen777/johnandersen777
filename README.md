@@ -14,7 +14,7 @@ going to be a wild ride. 🛼🎢
 
 ```bash
 # From within TMUX
-export INPUT_SOCK="$(mktemp -d)/input.sock"; ssh -NnT -p 2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o PasswordAuthentication=no -R /tmux.sock:$(echo $TMUX | sed -e 's/,.*//g') -R "${INPUT_SOCK}:${INPUT_SOCK}" user@alice.chadig.com
+export INPUT_SOCK="$(mktemp -d)/input.sock"; export OUTPUT_SOCK="$(mktemp -d)/text-output.sock"; export NDJSON_OUTPUT_SOCK="$(mktemp -d)/ndjson-output.sock"; ssh -NnT -p 2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o PasswordAuthentication=no -R /tmux.sock:$(echo $TMUX | sed -e 's/,.*//g') -R "${OUTPUT_SOCK}:${OUTPUT_SOCK}" -R "${NDJSON_OUTPUT_SOCK}:${NDJSON_OUTPUT_SOCK}" -R "${INPUT_SOCK}:${INPUT_SOCK}" user@alice.chadig.com
 ```
 
 [![Rolling-Alice-Architecting-Alice-A-Shell-for-a-Ghost-2024-09-02-nmap-local](https://github.com/user-attachments/assets/b301dc13-cad1-4b67-a252-03591ce4e53a)](https://asciinema.org/a/710485)
